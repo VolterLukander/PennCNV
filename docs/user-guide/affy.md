@@ -66,6 +66,8 @@ The instructions below were provided by Professor George Kirov at Cardiff Univer
 
 Using APT: `apt-probeset-genotype --analysis-files-path Axiom_UKB_WCSG.xml --out-dir Batch1 --summaries --cel-files list_CEL_files.txt` (The user has to choose the appropriate `Axiom_UKB_WCSG.xml` file that suits their analysis). Follow instructions provided by APT.
 
+##The apt-probeset-genotype program is out dated and is no longer working. This step should be done with the apt-genotype-axiom program with similar options.
+
 The command generates 4 output files:
 * AxiomGT1.calls.txt
 * AxiomGT1.confidences.txt (contains confidences for the genotype calls).
